@@ -1,8 +1,8 @@
 # reading-notes
 
-## random
+## Growth Mindset
 
-- first misc item
-- second misc item
-- third misc item
+- Accepts criticism
+- Inspired by the success of others
+- Seeks continuous self-improvement
 
