@@ -4,7 +4,7 @@
 
 - Accepts criticism
 - Seeks continuous self-improvement
-- Inspired to the success of others
+- Inspired by the success of others
 
 **Growth mindset is about adopting a positive outlook and being in a state of constant self-reflection.**
 
