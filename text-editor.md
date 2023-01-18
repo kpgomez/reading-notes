@@ -15,3 +15,8 @@ Very important to code in plain text
 ## Difference Between Text Editors and IDES
 
 An IDE includes a text editor, file manager, compiler, and debugger all in one software package
+ 
+ 
+## Things I want to know more about
+
+Why VS Code?
