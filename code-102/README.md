@@ -16,9 +16,9 @@ I am an aspiring RPA/software developer. I hope that will be my reality by end o
 
 ### Code 102
 
-- [Class 01](code-102/class-01-learning-markdown.md)
-- [Class 02 part 1 of 2](class-02-terminal-cheatsheet.md)
-- [Class 02 part 2 of 2](class-02-text-editor.md)
+- [Class 01](class-01-learning-markdown)
+- [Class 02 part 1 of 2](class-02-terminal-cheatsheet)
+- [Class 02 part 2 of 2](class-02-text-editor)
 - [Class 03](class-03-git-intro.md)
 - [Class 04](class-04.md)
 - [Class 05](class-05.md)
@@ -31,7 +31,7 @@ I am an aspiring RPA/software developer. I hope that will be my reality by end o
 
 ### Code 201
 
-- [Class 01](class-01.md)
+- [Class 01](class-01)
 - [Class 02](class-02)
 - [Class 03](class-03)
 - [Class 04](class-04)
