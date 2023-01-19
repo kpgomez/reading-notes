@@ -1,4 +1,6 @@
-# Cheatsheet
+# Class 02
+
+## Cheatsheet
 
 ## The Command Line (Terminal)
 

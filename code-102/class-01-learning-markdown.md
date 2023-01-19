@@ -1,4 +1,6 @@
-## Markdown Basic Syntax
+## Class 01
+
+# Markdown Basic Syntax
 
 # Basic Syntax
 
