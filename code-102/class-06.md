@@ -1,4 +1,12 @@
-# Title of Article
+# Class 06
+
+## JS Intro Paragraph
+
+## Introduction to JavaScript - basic output
+
+## JavaScript input with prompt and confirm
+
+
 
 - summary of article
 - things to note
