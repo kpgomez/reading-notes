@@ -14,9 +14,9 @@ Best practice is to use external file
 
 ### Input/Output
 
-alert("msg") //displays as pop-up in the browser with the text
-document.write("msg") //changes content of the page
-console.log("msg") //helps with debugging information
+- alert("msg") //displays as pop-up in the browser with the text
+- document.write("msg") //changes content of the page
+- console.log("msg") //helps with debugging information
 
 ## JavaScript input with prompt and confirm
 
