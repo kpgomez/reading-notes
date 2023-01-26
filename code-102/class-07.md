@@ -25,8 +25,9 @@ if (isEmpty(field)) {
 
 In order to use a f(x), it must be defined first
 
-Function *parameters* are listed inside the () in the function definition
-Function *arguments* are the values received by the function when it is invoked
+- Function *parameters* are listed inside the () in the function definition
+
+- Function *arguments* are the values received by the function when it is invoked
 
 parameters/arguments behave as *local* variables when inside the function aka {}
 
@@ -53,21 +54,21 @@ No () will return the f(x) object instead of the f(x) result
 
 [Source](https://www.w3schools.com/js/js_operators.asp)
 
-Assignment operators include =, +=, -=, *=, /=, %=, **=
-Arithmetic operators include + addition, * multiplication,- subtraction, ** exponents, / division, & modulus, ++ increment, -- decrement
+- Assignment operators include =, +=, -=, *=, /=, %=, **=
+- Arithmetic operators include + addition, * multiplication,- subtraction, ** exponents, / division, & modulus, ++ increment, -- decrement
 
 x += y is the same as x = x + y
 x ** y is the same as x = x ** y
 
- + operator is also used for concatentation of strings (+= can be used here too!)
++ operator is also used for concatentation of strings (+= can be used here too!)
 
 adding number and string will return a string
 
-Comparison operators include == equal to, === equal value and equal type, != not equal to, !== not equal value or not equal type, >, <, >=, <=, ? ternary operator
+- Comparison operators include == equal to, === equal value and equal type, != not equal to, !== not equal value or not equal type, >, <, >=, <=, ? ternary operator
 
-Logical operators include && logical and, || logical or, ! logical not
-Conditional operators
-Type operators include typeof which returns the type and instanceof which returns true if obj is instance of obj type (classes?)
+- Logical operators include && logical and, || logical or, ! logical not
+- Conditional operators
+- Type operators include typeof which returns the type and instanceof which returns true if obj is instance of obj type (classes?)
 
 # Things I want to know
 
