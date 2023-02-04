@@ -25,4 +25,32 @@ Reminder to reread material before class
 
 ## Things I want to know more about
 
+- a
+> b
+* c
+@ d
+: e
+= f
++ g
 
+*dragonfly*
+**dragonfly**
+* dragonfly
+> dragonfly 
+# dragonfly
+& dragonfly
+*
+'dragonfly'
+
+quiz 1 question 3 I only got .86 pts of 1 (italics, bold, ul, quoted text,H1 header, no markdown effect, no markdown effect)
+
+quiz 3 semantic tags
+
+quiz 4 question 4
+
+quiz 8 question 2 optimal loop
+
+while
+while
+for 
+ALL

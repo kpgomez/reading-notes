@@ -26,3 +26,12 @@
 - what is staged?
 - not sure I can understand Seeing Your Remotes stuff
 Link to github
+
+add is to set files as staged
+commit is snapshot of staging
+
+push is to send
+
+git allows you to track revisions to show a change histroy
+git reduces data loss
+git enables collaboration
