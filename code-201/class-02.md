@@ -40,6 +40,7 @@ Date: *02/07/2023*
 ## Javascript Basics Cont'd
 [Source](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 
+**The return statement tells the browser to return the result variable out of the function so it is available to use outside of that particular funtion**
 ### Q&A
 1. What data type is a sequence of text enclosed in single quote marks? string
 2. List 4 types of JavaScript operators. =, +, -, <, >, +=, <=, *, /
@@ -59,3 +60,7 @@ Date: *02/07/2023*
 ### Things I want to know more about
 - SEO
 - DOM API
+- *return* statement
+- [variable scoping](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#variable_scope)
+- document methods such as .querySelector, etc
+- null values
