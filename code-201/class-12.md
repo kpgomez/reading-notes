@@ -17,7 +17,7 @@ Canvas .methods:
 4. `.fillRect()` - (y1, y2, x1, x2)? 1 is starting value, 2 is ending value
 5. `.strokeRect()` - (y1, y2, x1, x2)?
 
-[Canvas quadrant example](https://www.javascripttutorial.net/wp-content/uploads/2020/09/JavaScript-Canvas.png)
+![Canvas quadrant example](https://www.javascripttutorial.net/wp-content/uploads/2020/09/JavaScript-Canvas.png)
 
 DOM .methods (refresher):
 1. `.querySelector()` - example was declared with `const`
