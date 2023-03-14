@@ -1,5 +1,3 @@
-# Title of Article
-
 ## JavaScript Canvas
 [Source](https://www.javascripttutorial.net/web-apis/javascript-canvas/)
 
