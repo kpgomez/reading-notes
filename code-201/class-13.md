@@ -1,4 +1,5 @@
 ## Local Storage and How to Use it on Websites
+[Source](https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/)
 
 **Notes**
 
@@ -38,16 +39,15 @@ To use local storage in HTML5 supported browsers, you modify the `localStorage` 
 
 **Q&A**
 
-1. Why would a developer use local storage for a web application? So they can persist data without a server, and also so they don't use up all their quota?
+1. Why would a developer use local storage for a web application? So they can persist data without a server, and also so they don't use up all their quota
 
-2. What information should not be stored in local storage?
+2. What information should not be stored in local storage?sensitive user information
 
-3. Local storage can store what type of data? strings
-How would you convert it to that type before storing
+3. Local storage can store what type of data? strings and objects
+
+4. How would you convert it to that type before storing. You can store objects using JSON methods stringify() and parse().
 
 ## Bookmark
 [The Past, Present, and Future of Local Storage for Web Applications](http://diveinto.html5doctor.com/storage.html)
 
 ### Things I want to know
-
-Link to github
