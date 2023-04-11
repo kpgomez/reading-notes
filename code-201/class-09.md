@@ -50,7 +50,7 @@ Event handler is a block of code that runs when an event fires
 Event objects (event, evt, e)
 
 1. How would you describe events to a non-technical friend? User does an action and that action results in another action from the computer/webpage
-2. When using the addEventListener() method, what 2 arguments will you need to provide? the event to listen for, and the function call
+2. When using the addEventListener() method, what 2 arguments will you need to provide? the event to listen for (event type), and the function call
 3. Describe the event object. Why is the target within the event object useful? 
 4. What is the difference between event bubbling and event capturing? The order is reversed in Event capture
 
