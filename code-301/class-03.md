@@ -10,8 +10,11 @@ a key is required for list items
 *Syntax Example*
 
 `const numbers = [1, 2, 3, 4, 5];`
+
 `const listItems = numbers.map((numbers) =>`
+
   `<li>{numbers}</li>`
+
 `);`
 
 `const root = ReactDOM.createRoot(document.getElementById('root')); ` 
@@ -39,6 +42,7 @@ XML is extensible markup language
 **Notes**
 
 `Math.max(1,3,5)` // 5
+
 `Math.max([1,3,5])` // NaN
 
 The spread operator is useful for ...
@@ -58,23 +62,28 @@ The spread operator is useful for ...
     1. Add items to an array
     2. Combine arrays
     3. Combine objects
-    4. pread an array out into a function's arguments
+    4. Spread an array out into a function's arguments
 3. Give an example of using the spread operator to combine two arrays.
 
 `const array1 = [1, 2, 3];`
+
 `const array2 = [4, 5, 6];`
+
 `const combinedArray = [...array1,...array2]`
 
 4. Give an example of using the spread operator to add a new item to an array.
 
 `const array1 = [1, 2, 3];`
+
 `const array2 = [4, 5, 6,...array1];`
 
 
 5. Give an example of using the spread operator to combine two objects into one.
 
 `const obj1 = {name: 'Napoleon'}`
+
 `const obj2 = {name: 'Georgina'}}`
+
 `const combinedObject = [...obj1,...obj2]`
 
 Videos
