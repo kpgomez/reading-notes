@@ -37,7 +37,7 @@
 - [Class 01 - Introduction to React and Components](/code-301/class-01.md)
 - [Class 02 - React Lifecycle & React State VS Props](/code-301/class-02.md)
 - [Class 03 - React Docs, The Spread Operator, & How to Pass Functions Between Components](/code-301/class-03.md)
-- [Class 04](/code-301/class-04.md)
+- [Class 04 - React Docs - Forms & The Conditional Ternary Operator Explained](/code-301/class-04.md)
 - [Class 05](/code-301/class-05.md)
 - [Class 06](/code-301/class-06.md)
 - [Class 07](/code-301/class-07.md)
