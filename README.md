@@ -39,7 +39,7 @@
 - [Class 03 - React Docs, The Spread Operator, & How to Pass Functions Between Components](/code-301/class-03.md)
 - [Class 04 - React Docs - Forms & The Conditional Ternary Operator Explained](/code-301/class-04.md)
 - [Class 05 - React Docs - Thinking in React & High-Order Functions](/code-301/class-05.md)
-- [Class 06](/code-301/class-06.md)
+- [Class 06 - REST](/code-301/class-06.md)
 - [Class 07](/code-301/class-07.md)
 - [Class 08](/code-301/class-08.md)
 - [Class 09](/code-301/class-09.md)
