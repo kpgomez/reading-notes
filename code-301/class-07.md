@@ -21,6 +21,9 @@
 
 
 ## Bookmark and Review
+
 [Geocoding API Docs](https://locationiq.com/)
+
 [Axios docs](https://www.npmjs.com/package/axios)
+
 [MDN async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
