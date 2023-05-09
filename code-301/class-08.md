@@ -4,14 +4,20 @@
 
 ### Notes: 
 Avoid creating APIs that mirror the internal structure of a database
+
 Adopt a consistent naming convention
+
 HATEOAS
+
 Keep it simple
+
 Normalization
+
 Don't fetch data the client doesn't need
 
 Tips:
 Avoid requiring resource URIs more complex than collection/item/collection
+
 Think of the web API as an abstraction of the database
 
 ### HTTP Methods
