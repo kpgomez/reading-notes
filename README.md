@@ -41,7 +41,7 @@
 - [Class 05 - React Docs - Thinking in React & High-Order Functions](/code-301/class-05.md)
 - [Class 06 - REST](/code-301/class-06.md)
 - [Class 07 - An Introduction to Node.js on sitepoint.com](/code-301/class-07.md)
-- [Class 08](/code-301/class-08.md)
+- [Class 08 - API Design Best Practices](/code-301/class-08.md)
 - [Class 09](/code-301/class-09.md)
 - [Class 10](/code-301/class-10.md)
 
