@@ -1,5 +1,3 @@
-# Reading Notes
-
 ## Code 102 - Intro to Software Development
 
 - [Class 01](/code-102/class-01-learning-markdown)
@@ -43,7 +41,7 @@
 - [Class 07 - An Introduction to Node.js on sitepoint.com](/code-301/class-07.md)
 - [Class 08 - API Design Best Practices](/code-301/class-08.md)
 - [Class 09 - Functional Programming Concepts & Node JS Tutorial for Beginners #6 - Modules and require()](/code-301/class-09.md)
-- [Class 10](/code-301/class-10.md)
+- [Class 10 - Understanding the JavaScript Call Stack & JavaScript error messages](/code-301/class-10.md)
 
 ## Code 401 - Advanced Software Development
 
