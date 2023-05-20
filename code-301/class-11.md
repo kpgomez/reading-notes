@@ -8,7 +8,7 @@
 
 |SQL	 |NoSQL    |
 | :---:  | :---:   |
-table-based| 	   document-based, key-value pairs, graph databases, or wide-column stores  |     | 
+table-based| 	   document-based, key-value pairs, graph databases, or wide-column stores  |
 | 	    pre-defined schema |  dynamic schema        |
 | 	    vertically scaleable by increasing the horsepower of the hardware|        horizontally scaleable by increasing the number of servers |
 | 	   uses SQL for defining and manipulating data  |  uses UnQL      |
