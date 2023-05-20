@@ -42,6 +42,7 @@
 - [Class 08 - API Design Best Practices](/code-301/class-08.md)
 - [Class 09 - Functional Programming Concepts & Node JS Tutorial for Beginners #6 - Modules and require()](/code-301/class-09.md)
 - [Class 10 - Understanding the JavaScript Call Stack & JavaScript error messages](/code-301/class-10.md)
+- [Class 11](/code-301/class-11.md)
 
 ## Code 401 - Advanced Software Development
 
