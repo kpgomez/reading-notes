@@ -44,6 +44,6 @@
 - [Class 10 - Understanding the JavaScript Call Stack & JavaScript error messages](/code-301/class-10.md)
 - [Class 11 - NoSQL vs SQL](/code-301/class-11.md)
 - [Class 12 - Status Codes Based On REST Methods & Build a REST API](/code-301/class-12.md)
+- [Class 13 - CRUD Basics & Speed Coding](/code-301/class-13.md)
 
 ## Code 401 - Advanced Software Development
-
