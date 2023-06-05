@@ -46,5 +46,6 @@
 - [Class 12 - Status Codes Based On REST Methods & Build a REST API](/code-301/class-12.md)
 - [Class 13 - CRUD Basics & Speed Coding](/code-301/class-13.md)
 - [Class 14 - Diversity & Inclusion in the Tech Industry](/code-301/class-14.md)
+- [Class 15 - What is OAuth & Authorization and Authentication Flows](/code-301/class-15.md)
 
 ## Code 401 - Advanced Software Development
