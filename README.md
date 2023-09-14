@@ -1,3 +1,5 @@
+Collection of all my notes while at CodeFellows and links for further study
+
 ## Code 102 - Intro to Software Development
 
 - [Class 01](/code-102/class-01-learning-markdown)
