@@ -14,6 +14,15 @@
 | ... | ... | -a | list hidden items |
 | pwd | print working directory | ... | ... |
 | file [path] | shows file type | ... | ... |
+| man < command > | works like a encyclopedia | -k < search term > | help you find a command |
+| mkdir [options] < name of directory > | make new directory | -p | make parent |
+| ... | ... | -v | results |
+| rmdir [options] < name of directory > | remove **empty** directory | ... | ... |
+| touch [options] < filename > | create new file | ... | ... |
+| cp [options] < source > < destination > | copy | ... | ... |
+| mv [options] < source > < destination > | move or rename | ... | ... |
+| rm [options] < file > | remove file | -r | remove non-empty directory |
+| ... | ... | -i | interactive prompt |
 
 ### More About Long List (-l)
 
@@ -57,8 +66,16 @@ Absolute paths specify a location (file or directory) in relation to the root di
 - you can use escape characters(backslash) e.g., Holiday\ Photos is the same as 'Holiday Photos'
 
 ## Manual Pages
+
+use /search + ENTER to find specific words while in manual pages, press n for next
+
 ## File Manipulation
+ see common commands mkdir through rm
+
 ## Cheat Sheet
+
+kill < process id > - very useful for killing a port
+SUDO for admin privileges
 
 # Other Interests
 ## Grep and Regular Expressions
@@ -68,7 +85,10 @@ Absolute paths specify a location (file or directory) in relation to the root di
 - Using multiple terminal windows for different purposes will come in handy
 - / stands for root
 - hidden files begin with a .
-
+- use q to exit
+- long hand options begin with double (--)
+- short hand options with single (-)
+- both cp and r are recursive
 
 ### macOS short-cuts
 - command+space -> opens Spotlight (search tool)
