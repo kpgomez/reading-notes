@@ -51,3 +51,12 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 15 - What is OAuth & Authorization and Authentication Flows](/code-301/class-15.md)
 
 ## Code 401 - Advanced Software Development
+### Prework
+- [SQL summary](/code-401/prework/sqlsummary.md)
+- [Bourne Again SHell](/code-401/prework/bash.md)
+
+### Before Lecture
+- [Class 01](/code-401/class-01.md)
+- [Class 02](/code-401/class-02.md)
+- [Class 03](/code-401/class-03.md)
+- [Class 04](/code-401/class-04.md)
