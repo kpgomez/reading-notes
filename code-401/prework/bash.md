@@ -4,23 +4,26 @@
 - dashes (-) represent an option which help to modify a command
 
 - Commands are stored in history and can be entered again using the up or down arrow. move left or right to edit.
-### Common Commands
-| Syntax | Description | Options | Description |
-|--------|-------------|---------|-------------|
-| ls [options][location]| show list of all files in current directory| -l |long list|
-|||/etc|list directory contents|
-|pwd| print working directory|...|...|
-|file [path]|shows file type|...|...|
 
+### Common Commands
+
+| Syntax | Description | Options | Description |
+| ------ | ----------- | ------- | ----------- |
+| ls [options][location]| show list of all files in current directory, ignores hidden (.) items| -l | long list |
+| ... | ... | /etc | list directory contents |
+| ... | ... | -a | list hidden items |
+| pwd | print working directory | ... | ... |
+| file [path] | shows file type | ... | ... |
 
 ### More About Long List (-l)
 
-#### Example
-|-/d|permissions|# of blocks|owner|privilege|filesize|last modification date/time|name|
-|---|-----------|-----------|-----|---------|--------|---------------------------|----|
-|-|rw-r--r--|1|dgomez|staff|813|Sep 13 08:23|bash.md|
-|-|rw-r--r--|1|dgomez|staff|0|Sep  6 15:11|class-01.md|
-|d|rwxr-xr-x|3|dgomez|staff|96|Sep  6 15:13|prework|
+### Example
+
+| -/d | permissions | # of blocks | owner | privilege | filesize | last modification date/time | name |
+|---- | ----------- | ----------- | ----- | --------- | -------- | --------------------------- | ---- |
+| - | rw-r--r-- | 1 | dgomez | staff | 813 | Sep 13 08:23 | bash.md |
+| - | rw-r--r-- | 1 | dgomez | staff | 0 | Sep  6 15:11 | class-01.md |
+| d | rwxr-xr-x | 3 | dgomez | staff | 96 | Sep  6 15:13 | prework |
 
 Notes: - indicates file, d indicates directory
 
@@ -53,7 +56,6 @@ Absolute paths specify a location (file or directory) in relation to the root di
 - anything inside quotes is treated as a single item
 - you can use escape characters(backslash) e.g., Holiday\ Photos is the same as 'Holiday Photos'
 
-
 ## Manual Pages
 ## File Manipulation
 ## Cheat Sheet
@@ -65,6 +67,8 @@ Absolute paths specify a location (file or directory) in relation to the root di
 ## Things I Learned
 - Using multiple terminal windows for different purposes will come in handy
 - / stands for root
+- hidden files begin with a .
+
 
 ### macOS short-cuts
 - command+space -> opens Spotlight (search tool)
