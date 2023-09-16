@@ -59,7 +59,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [The Growth Mindset](/code-401/prework/growth.md)
 
 ### Before Lecture
-- [Class 01](/code-401/class-01.md)
+- [Class 01 - Pain and Suffering, Beginners Guide to Big O, Names and Values in Python](/code-401/class-01.md)
 - [Class 02](/code-401/class-02.md)
 - [Class 03](/code-401/class-03.md)
 - [Class 04](/code-401/class-04.md)
