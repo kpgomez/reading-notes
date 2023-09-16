@@ -55,6 +55,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [SQL summary](/code-401/prework/sqlsummary.md)
 - [Bourne Again SHell](/code-401/prework/bash.md)
 - [Data Structures and Algorithms](/code/prework/dsa.md)
+- [Engineering Readings](/code/prework/readings.md)
 
 ### Before Lecture
 - [Class 01](/code-401/class-01.md)
