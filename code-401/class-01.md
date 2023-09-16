@@ -6,9 +6,9 @@ I enjoy a challenge so let's do this!
 [Source](https://codefellows.github.io/code-401-python-guide/curriculum/class-01/notes/pain_suffering)
 
 The article reminded me of a favorite lyric by rapper D Smoke from Rhythm and Flow. 
-"..growth is an uncomfortable process and pain is a necessary investment for progress..."
+"...growth is an uncomfortable process and pain is a necessary investment for progress..."
 
-According to the artile, "Suffering is pain with purpose". The pain I will endure in the next 5 months will propel me forward in my career, in what I can provide for my family, and hopefully closer to the dream of buying our first home, and moving back to a big city.
+According to the article, "Suffering is pain with purpose". The pain I will endure in the next 5 months will propel me forward in my career, in what I can provide for my family, and hopefully closer to the dream of buying our first home, and moving back to a big city.
 
 ## Beginners Guide to Big O
 [Source](https://robbell.io/2009/06/a-beginners-guide-to-big-o-notation)
@@ -33,6 +33,7 @@ I have to rewatch this and at a much slower pace.
 
 ## Additional Resources
 [Season 1, Episode 6, A friendly intro to Big O Notation](https://www.codenewbie.org/basecs/8)
+
 [Python Tutor, Learn Python by Visualizing Code](pythontutor.com)
 
 ## Reading Questions
