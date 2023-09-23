@@ -61,5 +61,5 @@ Collection of all my notes while at CodeFellows and links for further study
 ### Before Lecture
 - [Class 01 - Pain and Suffering, Beginners Guide to Big O, Names and Values in Python](/code-401/class-01.md)
 - [Class 02 - TDD, Namespaces, Recursion, Python Modules and Packages](/code-401/class-02.md)
-- [Class 03](/code-401/class-03.md)
+- [Class 03 - File IO & Exceptions](/code-401/class-03.md)
 - [Class 04](/code-401/class-04.md)
