@@ -6,7 +6,7 @@
 -[Pytest Fixtures and Coverage](https://www.linuxjournal.com/content/python-testing-pytest-fixtures-and-coverage)
 
 ### Notes
-Classes are in upppercase. They are a blueprint/template of 
+Classes are in uppercase. They are a blueprint/template of 
 
 myobjectx = MyClass() then use dot notation to access its variables and methods(functions)
 

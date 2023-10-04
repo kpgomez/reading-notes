@@ -62,4 +62,12 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 01 - Pain and Suffering, Beginners Guide to Big O, Names and Values in Python](/code-401/class-01.md)
 - [Class 02 - TDD, Namespaces, Recursion, Python Modules and Packages](/code-401/class-02.md)
 - [Class 03 - File IO & Exceptions](/code-401/class-03.md)
-- [Class 04](/code-401/class-04.md)
+- [Class 04 - Classes/Objects, Recursion,and Pytest](/code-401/class-04.md)
+- [Class 06 - Random Module, Risk Analysis, Test Coverage, Big O](/code-401/class-06.md)
+
+### My Notes
+- [Jay Wengrow DSA Book](/code-401/dsa.md)
+- [JavaScript vs Python](/code-401/syntax.md)
+
+### Resources
+
