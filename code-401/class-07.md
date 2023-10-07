@@ -40,7 +40,7 @@ Other growth rates
 
 2. How do the global and nonlocal keywords work in Python, and in what situations might you use them? The keywords allow you to modify standard behavior of scope
 
-![global example](/code-401/Screenshot%202023-10-07%20at%2010.12.48%20AM.png)
+![global example](<Screenshot 2023-10-07 at 10.12.48 AM-1.png>)
 
 ![nonlocal example](image-8.png)
 
