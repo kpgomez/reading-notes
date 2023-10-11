@@ -65,6 +65,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 04 - Classes/Objects, Recursion,and Pytest](/code-401/class-04.md)
 - [Class 06 - Random Module, Risk Analysis, Test Coverage, Big O](/code-401/class-06.md)
 - [Class 07 - Ten Thousand 2](/code-401/class-07.md)
+- [Class 08 - List Comprehension, Decorators, PySnooper](/code-401/class-08.md)
 
 ### My Notes
 - [Jay Wengrow DSA Book](/code-401/dsa.md)
