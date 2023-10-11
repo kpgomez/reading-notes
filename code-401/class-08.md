@@ -121,6 +121,58 @@ variable = [expression for item in iterable_objection conditional statement]
 
 ![Alt text](image-16.png)
 
+According to [ChatGPT](https://chat.openai.com/c/90d826a9-2c57-4fda-95a9-a58cd6af3c54), 
+
+In Python, decorators are a powerful and flexible way to modify or extend the behavior of functions or methods without changing their actual code. They are essentially higher-order functions that take another function as an argument and return a new function that usually extends or enhances the original function's functionality. Decorators are commonly used for tasks like logging, authentication, validation, and more.
+
+Here's how decorators work in Python:
+
+1. A decorator is a function that takes another function as its argument.
+2. The decorator can modify or enhance the functionality of the input function or execute code before and after it.
+3. The decorator returns a new function that can be used in place of the original function.
+
+Common use cases for decorators include:
+
+1. **Logging**: You can use decorators to log information about when a function is called, what arguments it's called with, and what it returns.
+
+2. **Authentication and Authorization**: Decorators can be used to check if a user is authenticated and authorized to access a specific resource or perform an action.
+
+3. **Caching**: You can create decorators that cache the results of a function to avoid recomputation when the same inputs are provided.
+
+4. **Validation**: Decorators can be used to validate input arguments before a function is executed.
+
+5. **Timing and Profiling**: Decorators can be used to measure the execution time of functions or collect profiling data.
+
+Here's an example of a simple decorator function in Python:
+
+```python
+def my_decorator(func):
+    def wrapper():
+        print("Something is happening before the function is called.")
+        func()
+        print("Something is happening after the function is called.")
+    return wrapper
+
+# Using the decorator
+@my_decorator
+def say_hello():
+    print("Hello!")
+
+say_hello()
+```
+
+In this example, `my_decorator` is a decorator function that takes another function `func` as its argument. It defines a `wrapper` function that includes additional code to be executed before and after calling the original function. When we use `@my_decorator` above the `say_hello` function, it is equivalent to calling `say_hello = my_decorator(say_hello)`. So, when we call `say_hello()`, it actually calls the `wrapper` function, and you will see the messages before and after "Hello!" is printed.
+
+Output:
+```
+Something is happening before the function is called.
+Hello!
+Something is happening after the function is called.
+```
+
+This is a simple example, but decorators can become much more complex and versatile, making them a powerful tool for extending and modifying the behavior of functions in Python.
+
+
 ## Things I Want to Learn More About
 - Are comprehensions algorithmically more efficient?
 - [String Indexing](https://www.pythonforbeginners.com/strings/string-indexing-in-python)
