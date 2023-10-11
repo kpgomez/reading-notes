@@ -7,7 +7,7 @@ The following readings and videos are important because Python's comprehension f
 - [Debugging with PySnooper](https://www.pythonpodcast.com/pysnooper-python-debugging-episode-241/)
 
 
-## Notes
+## List Comprehension Notes
 
 ### syntax for list comprehension
 
@@ -67,6 +67,35 @@ Conditional statements act as a **filter**
 
 ### Delimiters
 
+<hr>
+
+## Primer on Python Decorator Notes
+
+A decorator is a function that takes another function and extends the behavior of the second function
+
+Functions are first-cass objects that can be passed around and used as arguments
+
+When a function is named without parentheses, only the reference to the function is passed and the function is not executed
+
+`greet_bob(say_hello)`
+
+say_hello is a reference
+
+inner functions are functions defined inside other functions and are locally scoped to the enclosing function
+
+![Alt text](<Screenshot 2023-10-10 at 7.15.27 PM-1.png>)
+
+### Returning Functions from Functions
+
+![Alt text](<Screenshot 2023-10-10 at 7.15.27 PM.png>)
+
+
+## PySnooper
+1. pip install PySnooper
+2. import PySnooper
+3. add snooper.pysnooper decorators
+
+
 ## Bookmark and Review
 - [Primer on Decorators](https://realpython.com/primer-on-python-decorators/)
 
@@ -86,11 +115,21 @@ variable = [expression for item in iterable_objection conditional statement]
 
 ![Alt text](image-11.png)
 
-2. What is a decorator in Python?
+2. What is a decorator in Python? a function that extends another function
 
 3. Explain the concept of decorators in Python. How do they work, and what are some common use cases for them? Provide an example of a simple decorator function from the reading.
+
+![Alt text](image-16.png)
 
 ## Things I Want to Learn More About
 - Are comprehensions algorithmically more efficient?
 - [String Indexing](https://www.pythonforbeginners.com/strings/string-indexing-in-python)
 - [Dictionary Comprehension](https://www.pythonforbeginners.com/dictionary/dictionary-comprehension-in-python)
+- [String Concatenation](https://www.pythonforbeginners.com/concatenation/string-concatenation-and-formatting-in-python)
+- [Iterators & Iterables](https://realpython.com/python-iterators-iterables/)
+- Rust
+- Fintech
+- [PySnooper](https://github.com/cool-RR/PySnooper/?utm_source=rss&utm_medium=rss)
+- [Wing IDE](https://wingware.com/?utm_source=rss&utm_medium=rss)
+- [Higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function)
+- [Functional Programming in Python](https://realpython.com/python-functional-programming/)
