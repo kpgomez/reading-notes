@@ -71,10 +71,23 @@ all elements in a numpy array have to be of the same type
 ## Reading Questions
 1. What are the key features and benefits of Jupyter Lab, and how does it differ from Jupyter Notebook? Key features include the ability to run code and anotate alongside it using markdown, allows various formats, etc. New features available in Jupyter Lab include the ability to drag and drop cells to rearrange the notebook or copy content, tab completion, ability to scroll lengthy outputs, a new cell toolbar feature, and a few other additions. 
 
-2. What are the main functionalities provided by the NumPy library, and how can it be useful in Python programming, particularly for scientific computing and data manipulation tasks? Numpy is great for data analysis and machine learning models because it can handle large datasets. 
+2. What are the main functionalities provided by the NumPy library, and how can it be useful in Python programming, particularly for scientific computing and data manipulation tasks? Numpy is great for data analysis and machine learning models. At the core is C so it has the speed of a compiled language but it's great for non-programmers due to its simple syntax. 
 
 
-3. Explain the basic structure and properties of NumPy arrays, and provide examples of how to create, manipulate, and perform operations on them. Numpy arrays must contain the same data type, and are multidimensional. 
+3. Explain the basic structure and properties of NumPy arrays, and provide examples of how to create, manipulate, and perform operations on them. Numpy arrays must contain the same data type, and are multidimensional. They are multidimensional and consist of the same datatype. 
+
+to create 
+
+`numpy.array([1,2,3])`
+`variable = numpy.array([1,2,3],[2,3,4])`
+
+to manipulate
+
+`variable.flatten()`
+
+to perform 
+
+`numpy.array([1,2,3]).sum()`
 
 ## Things I need to revisit
 - I/O files
