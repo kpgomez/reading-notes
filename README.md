@@ -67,6 +67,8 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 07 - Ten Thousand 2](/code-401/class-07.md)
 - [Class 08 - List Comprehension, Decorators, PySnooper](/code-401/class-08.md)
 - [Class 09 - Bots & Monkey Patching](/code-401/class-09.md)
+- [Class 11 - Jupyter Lab & Numpy](/code-401/class-11.md)
+
 
 ### My Notes
 - [Jay Wengrow DSA Book](/code-401/dsa.md)
