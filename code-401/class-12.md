@@ -33,6 +33,9 @@ attributes are without ()
 
 df.shape
 df.info()
+df.columns
+df.loc
+df.iloc
 
 ## Bookmark and Review
 - [Master Pandas](https://towardsdatascience.com/be-a-more-efficient-data-scientist-today-master-pandas-with-this-guide-ea362d27386)
