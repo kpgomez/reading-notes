@@ -70,6 +70,8 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 11 - Jupyter Lab & Numpy](/code-401/class-11.md)
 - [Class 12 - Pandas](/code-401/class-12.md)
 - [Class 13 - Simple Linear Regression](/code-401/class-13.md)
+- [Class 14 - Seaborn](/code-401/class-14.md)
+- [Class 15 - Trees](/code-401/class-15.md)
 
 
 ### My Notes
@@ -77,4 +79,5 @@ Collection of all my notes while at CodeFellows and links for further study
 - [JavaScript vs Python](/code-401/syntax.md)
 
 ### Resources
+
 
