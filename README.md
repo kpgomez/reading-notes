@@ -72,6 +72,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 13 - Simple Linear Regression](/code-401/class-13.md)
 - [Class 14 - Seaborn](/code-401/class-14.md)
 - [Class 15 - Trees](/code-401/class-15.md)
+- [Class 16 - Serverless functions](/code-401/class-16.md)
 
 
 ### My Notes
