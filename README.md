@@ -73,6 +73,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 14 - Seaborn](/code-401/class-14.md)
 - [Class 15 - Trees](/code-401/class-15.md)
 - [Class 16 - Serverless functions](/code-401/class-16.md)
+- [Class 17 - Web Scraping](/code-401/class-17.md)
 
 
 ### My Notes
