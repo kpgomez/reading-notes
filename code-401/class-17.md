@@ -18,4 +18,4 @@
 > open automation framework that assists with cross-browser compatibility, headless or non-headless modes, rich automation capabilities. An example use case is e-commerce price monitoring [ChatGPT Prompt](https://chat.openai.com/c/be1c0201-196f-4ace-9d35-4b938d5249cb)
 
 4. Describe the purpose of using Xpath in web scraping, and provide an example of an Xpath expression to select a specific HTML element from a webpage.
-> It helps with locating elements within a document tree, extracting data by isolating and retrieving desired data, and navigation. Example -> `//title`
+> It helps with locating elements within a document tree, extracting data by isolating and retrieving desired data, and navigation. Example -> `//title` [ChatGPT Prompt](https://chat.openai.com/c/73b0916e-272b-4db9-9740-1977aa2bb67e)
