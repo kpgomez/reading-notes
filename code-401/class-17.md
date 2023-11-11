@@ -4,7 +4,16 @@
 - [Scrape a Dynamic Website with Python](https://scrapingant.com/blog/scrape-dynamic-website-with-python)
 - [What is Web Scraping?](https://en.wikipedia.org/wiki/Web_scraping)
 - [How to scrape websites without getting blocked](https://www.scrapehero.com/how-to-prevent-getting-blacklisted-while-scraping/)
+- [Video: Login and Scrape Data with Playwright and Python](https://www.youtube.com/watch?v=H2-5ecFwHHQ&t=60s)
+- [Video: Python Playwright Tutorial for Beginners](https://www.youtube.com/watch?v=yp1o9biMMWU)
+- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
+- [Playwright XPath Resources](https://www.programsbuzz.com/article/playwright-xpath-selectors)
 
+## Additional Resources
+- [XPath Cheatsheet](https://devhints.io/xpath)
+- [Video: Render Dynamic Pages - Web Scraping Product Links with Python](https://www.youtube.com/watch?v=MeBU-4Xs2RU)
+- [Video: Rendering Dynamic Pages 2! Web Scraping ALL products with Python](https://www.youtube.com/watch?v=B14mtXA7Tyw)
+- [StackOverflow: Selecting an element containing certain text](https://stackoverflow.com/questions/1520429/is-there-a-css-selector-for-elements-containing-certain-text)
 
 
 ## Reading Questions
