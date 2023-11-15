@@ -37,13 +37,39 @@ Python Module Name: `re`
 
 Recognized escape characters
 `\s` space
+
 `\n` newline?
 
+`\w` lowercase w matches any single letter, digit, or underscore
 
-repetitions
-groups and named groups
-greedy vs non-greedy matching
-compilation flags
+`\W` uppercase W matches any character not part of `\w` so everything else except single letter, digit, or underscore
+
+`\s` lowercase s matches a single whitespace character like space, newline, return 
+
+`\S` uppercase S matches any character not part of `\s` so everything else except space, newline, return
+
+`\d` lowercase d matches decimal digit 0-9
+
+`\D` uppercase D matches any character that is not a decimal digit
+
+`+` plus symbol is used for repetition
+
+`\t` lowercase t matches tab
+
+`\n` lowercase n matches newline
+
+`\r` lowercase r matches return
+
+`\A` uppercase A matches only at the start of a string. works across **multiple lines**
+
+`\Z` uppercase Z matches only at the end of a string
+
+`\b` lowercase b matches only the beginning or end of the word
+
+### Repetitions
+### Groups and Named Groups
+### Greedy vs Non-greedy Matching
+# Compilation Flags
 
 re methods
 - compile()
@@ -153,8 +179,6 @@ pyautogui.locateOnScreen('image.png') -> image coordinates(x, y, width, height):
 pyautogui.locateCenterOnScreen('image.png')
 pyautogui.click((x, y)) <- x, y is the coordinates
 
-
-
 ## Sources
 - [Python Regular Expressions Tutorial by DataCamp](https://www.datacamp.com/tutorial/python-regular-expression-tutorial)
 - [shutil](https://pymotw.com/3/shutil/)
@@ -177,8 +201,8 @@ pyautogui.click((x, y)) <- x, y is the coordinates
 
 ## Reading Questions
 1. How can you use regular expressions in Python to search for specific patterns in a string, and what is the primary module to work with them?
-> re is the primary module. 
+> re is the primary module. First, you create a regex pattern, then have the re methods check against the pattern. 
 2. What is the purpose of the shutil module in Python, and provide an example of a common use case for file or directory management with this module?
-> 
+> Use it for high-level file operations such as copying, archiving, checking file disk space. 
 3. Compare and contrast the os and shutil modules. When would you choose to use one over the other?
-> os' purpose is for 'portable access to operating system specific features' whereas shutil's purpose is for high-level file operations. 
+> os' purpose is for 'portable access to operating system specific features' whereas shutil's purpose is for high-level file operations. Use os when you need to read, write to the file system, interact with process environments. Use shutil when you need to copy, move, or remove files. [ChatGPT prompt](https://chat.openai.com/c/e5bf6c8c-ed47-402c-8c65-5d45fe165533)
