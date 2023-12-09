@@ -25,12 +25,14 @@
 `return render(request, '.html', {'key' : key})`
 `return render(request, '.html', {'current_user' : request.user})`
 
-`{% if %}{% endif %}` for expressions?
+{%raw%}
+`{%'if'%}{% 'endif' %}` 
 `{% for %}{% endfor %}`
 `{% blocktrans %}{% endblocktrans%}`
 `{% plural %}`
 `{% if %}{% trans %}{% endif %}` 
-`{{}}` template literals?
+{%endraw%}
+`{{}}` 
 
 `admin.site.register(XXX)`
 `admin.site.register(XXX, XXX)`
