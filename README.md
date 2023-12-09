@@ -74,7 +74,11 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 15 - Trees](/code-401/class-15.md)
 - [Class 16 - Serverless functions](/code-401/class-16.md)
 - [Class 17 - Web Scraping](/code-401/class-17.md)
-- [Class 18 - Automation](/code-401/class-18.md)
+- [Class 18 - Crypto?]()
+- [Class 19 - Automation](/code-401/class-18.md)
+- Class 20 - 25 - Midterm Project Weeks
+- [Class 26 - Django & Tailwind CSS](/code-401/class-26.md)
+
 
 
 ### My Notes
