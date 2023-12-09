@@ -67,8 +67,20 @@ Recognized escape characters
 `\b` lowercase b matches only the beginning or end of the word
 
 ### Repetitions
+
+`+` checks if the preceding characters appears one or more
+`*` zero or more
+`?` one or zero
+`{x}` exactly x number of times
+`{x,}` x or more number of times
+`{x,y}` between x and y times, inclusive
+
 ### Groups and Named Groups
+parts of a regex bounded by () are called groups
+
 ### Greedy vs Non-greedy Matching
++ and * are greedy
+
 # Compilation Flags
 
 re methods
