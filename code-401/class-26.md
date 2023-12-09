@@ -1,40 +1,83 @@
 # Class 26
 
 ## Django Notes
+Import statements
+
 `from django.db import models`
+
 `from django.url import path`
+
 `from . import views`
+
 `from django.shortcuts import render`
+
 `from django import forms`
+
 `from django.contrib.auth.decorators import login_required`
+
 `from django.contrib import admin`
+
 `from django.utils.translation import gettext`
+<hr>
+
+Model Classes
 
 `models.CharField(max_length=XXX, choices=())`
+
 `models.BooleanField(default=True)`
+
 `models.ForeignKey()`
 
+Classes
+
 `models.Model`
+
 `forms.Form`
+
 `admin.ModelAdmin`
 
+Forms Classes
+
 `forms.CharField()`
+
 `forms.EmailField()`
+
 `forms.BooleanField(required=False)`
+<hr>
+
+Render
 
 `return render(request, '.html', {'key' : key})`
+
 `return render(request, '.html', {'current_user' : request.user})`
+<hr>
+
+Expressions
 
 {%raw%}
+
 `{%'if'%}{% 'endif' %}` 
+
 `{% for %}{% endfor %}`
+
 `{% blocktrans %}{% endblocktrans%}`
+
 `{% plural %}`
+
 `{% if %}{% trans %}{% endif %}` 
+
 {%endraw%}
+<hr>
+
+Variables
+
 `{{}}` 
+<hr>
+
+Admin
 
 `admin.site.register(XXX)`
+
 `admin.site.register(XXX, XXX)`
 
 ## Tailwind Notes
