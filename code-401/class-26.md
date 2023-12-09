@@ -83,3 +83,4 @@ example `<button class="h-10 px-6 font-semi-bold rounded-md bg-black text-white"
 - [Tailwind design system](https://blog.hubspot.com/website/design-system?hubs_content=blog.hubspot.com%2Fwebsite%2Fwhat-is-tailwind-css&hubs_content-cta=design%20system)
 - [Tailwind Open-Source Components](https://tailwindcomponents.com/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs/customizing-colors)
+- [raw tags](https://stackoverflow.com/questions/52324134/getting-an-liquid-exception-liquid-syntax-error-while-using-jekyll)
