@@ -78,7 +78,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 19 - Automation](/code-401/class-18.md)
 - Class 20 - 25 - Midterm Project Weeks
 - [Class 26 - Django & Tailwind CSS](/code-401/class-26.md)
-
+- [Class 27 - Django Models](/code-401/class-27.md)
 
 
 ### My Notes
