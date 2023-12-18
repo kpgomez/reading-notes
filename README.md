@@ -80,6 +80,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 26 - Django & Tailwind CSS](/code-401/class-26.md)
 - [Class 27 - Django Models](/code-401/class-27.md)
 - [Class 28 - Django CRUD and Forms](/code-401/class-28.md)
+- [Class 29 - Django Custom User](/code-401/class-29.md)
 
 
 
