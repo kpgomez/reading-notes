@@ -1,11 +1,11 @@
 # Class 31
 
 ## Sources
-- [Beginner's Guide to Docker]()
-- [Django for APIs]()
+- [Beginner's Guide to Docker](https://wsvincent.com/beginners-guide-to-docker/)
+- [Django for APIs](https://djangoforapis.com/library-website-and-api/)
 
 ## Bookmark and Review
-- [Beginner's Guide to Django REST Framework]()
+- [Beginner's Guide to Django REST Framework](https://learndjango.com/tutorials/official-django-rest-framework-tutorial-beginners)
 
 ## Reading Questions
 1. What are the key components of a Docker container, and how do they help streamline the development and deployment of applications?
