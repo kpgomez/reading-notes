@@ -81,12 +81,16 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 27 - Django Models](/code-401/class-27.md)
 - [Class 28 - Django CRUD and Forms](/code-401/class-28.md)
 - [Class 29 - Django Custom User](/code-401/class-29.md)
+- Class 30 - Hashtables
+- [Class 31 - Django REST Framework & Docker](/code-401/code-401/class-31.md)
+- [Class 32 - Permissions & Postgresql](/code-401/class-32.md)
 
 
 
 ### My Notes
 - [Jay Wengrow DSA Book](/code-401/dsa.md)
 - [JavaScript vs Python](/code-401/syntax.md)
+- [Python Documentation](/code-401/pythondocs.md)
 
 ### Resources
 
