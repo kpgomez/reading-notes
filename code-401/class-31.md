@@ -22,7 +22,7 @@ add `FROM python:3.11-alpine` to Dockerfile <- imports a base image
 - `touch docker-compose.yml`
 - `docker-compose up --build`
 
-```
+```python
 # Dockerfile
 
 # Python version
@@ -43,7 +43,7 @@ RUN pip install pipenv && pipenv install --system
 COPY . /<name_of_folder>/
 ```
 
-```
+```python
 # docker-compose.yml
 version: '3.11'
 
@@ -85,7 +85,8 @@ services:
 > - Add app `python manage.py startapp name_of_app`
 > - Add urls.py file to app directory
 > - Add new app to list of INSTALLED_APPS in settings.py
-```
+
+```python
 # django_project/settings.py
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -98,9 +99,10 @@ INSTALLED_APPS = [
     "books.apps.BooksConfig",  # this is different... why is this not just "books"?
 ]
 ```
+
 > - update models.py
 
-```
+```python
 # books/models.py
 from django.db import models
 
@@ -114,11 +116,13 @@ class Book(models.Model):
     def __str__(self):
         return self.title
 ```
+
 > - `python manage.py makemigrations <name_of_app>`
 > - `python manage.py migrate`
 > - `python manage.py createsuperuser`
 > - update admin.py
-```
+
+```python
 # books/admin.py
 from django.contrib import admin
 
@@ -126,9 +130,10 @@ from .models import Book
 
 admin.site.register(Book)
 ```
+
 > - update views.py
 
-```
+```python
 # books/views.py
 from django.views.generic import ListView
 
@@ -139,8 +144,10 @@ class BookListView(ListView):
     model = Book
     template_name = "book_list.html"
 ```
+
 > - update project-level urls.py
-```
+
+```python
 # django_project/urls.py
 from django.contrib import admin
 from django.urls import path, include  # new
@@ -150,8 +157,10 @@ urlpatterns = [
     path("", include("books.urls")),  # new
 ]
 ```
+
 > - update app-level urls.py
-```
+
+```python
 # books/urls.py
 from django.urls import path
 
@@ -161,9 +170,11 @@ urlpatterns = [
     path("", BookListView.as_view(), name="home"),
 ]
 ```
+
 > - create new *templates* folder within the app directory
 > - create new *base.html, list.html* file in templates folder
-```
+
+```python
 <!-- books/templates/books/book_list.html -->
 <h1>All books</h1>
 {% for book in book_list %}
@@ -176,5 +187,7 @@ urlpatterns = [
 {% endfor %}
 ```
 
-3. Can you explain the primary differences between Django and Django REST framework? [ChatGPT Prompt](https://chat.openai.com/c/a2763cbe-18da-4273-b57c-e2048e20a8af)
+3. Can you explain the primary differences between Django and Django REST framework? 
+
+[ChatGPT Prompt](https://chat.openai.com/c/a2763cbe-18da-4273-b57c-e2048e20a8af)
 > Django is for building a quick client-side web application and Django REST is for building a quick server-side RESTful web APIs. 
