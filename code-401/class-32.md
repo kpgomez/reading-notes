@@ -20,6 +20,7 @@ SELECT *
 ```
 3. Can you explain the role of DRF Generic Views and provide examples of their usage in building a RESTful API?
 > Generic views is a set of pre-built views for common CRUD operations. They can be customized by overriding methods or attributes. 
+
 ```python
 # ListView
 from rest_framework.generics import ListAPIView
