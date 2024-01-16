@@ -49,25 +49,25 @@ INSTALLED_APPS = [
 
 
 ## Django Commands
-|Reference|Command|Description|Notes|
-|-|-|-|-|
-|a|`django-admin startproject <project_name_project> .`|create new Django project| creates a django project package which includes asgi.py, settings.py,  urls.py, wsgi.py|
-|b|`python manage.py startapp <app_name>`|create new Django app|each django app includes a migrations package, admin.py, apps.py, models.py, tests.py, views.py|
-||||
+| Reference | Command | Description | Notes |
+| - | - | - | - |
+| a | `django-admin startproject <project_name_project> .` | create new Django project | creates a django project package which includes asgi.py, settings.py,  urls.py, wsgi.py |
+| b | `python manage.py startapp <app_name>` | create new Django app|each django app includes a migrations package, admin.py, apps.py, models.py, tests.py, views.py | ... |
+| ... | ... |...| ... |
 
 
 ## Libraries
-|Name|Description|Command|Import Statement|Documentation|
-|-|-|-|-|-|
-|Django|Batteries included web development framework|`pip install django`|||
-|Django-Cors-Headers||`pip install django-cors-headers`||[link to docs](https://pypi.org/project/django-cors-headers/)|
-|Django-Environ||`pip install django-environ`|||
-|Django REST Framework||`pip install djangorestframework`|||
-|Django REST Framework Simple JWT||`pip install djangorestframework-simplejwt`|||
-|Gunicorn|Production grade server application|`pip install gunicorn`|||
-|Psycopgbinary-2|Postgres Adapter|`pip install psycopg-binary2`|||
-|Tailwind CSS|Utility First Custom CSS Library|`npm install -D tailwindcss`|||
-|Whitenoise||`pip install whitenoise`|||
+| Name | Description | Command | Import Statement | Documentation |
+| - | - | - | - | - |
+| Django | Batteries included web development framework | `pip install django` | ... |...|
+| Django-Cors-Headers | ... | `pip install django-cors-headers` | ... | [link to docs](https://pypi.org/project/django-cors-headers/) |
+| Django-Environ | ... | `pip install django-environ` | ... | ... |
+| Django REST Framework | ... | `pip install djangorestframework` | ... | ... |
+| Django REST Framework Simple JWT | ... | `pip install djangorestframework-simplejwt` | ... | ... |
+| Gunicorn | Production grade server application | `pip install gunicorn` | ... | ... |
+| Psycopgbinary-2 | Postgres Adapter | `pip install psycopg-binary2` | ... | ... |
+| Tailwind CSS | Utility First Custom CSS Library | `npm install -D tailwindcss` | ... | ... |
+| Whitenoise | ... | `pip install whitenoise` | ... | ... |
 
 ## Tailwind
 - [Documentation](https://tailwindcss.com/docs/installation)
