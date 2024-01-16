@@ -1,20 +1,20 @@
 # Django API steps
 
 ## Initial Project Setup
-|Step|Description|Environment|Command|
-|-|-|-|-|
-|1|Create new directory|Terminal|`mkdir <new_directory>`|
-|2|Step into new directory|Terminal|`cd <new_directory>`|
-|3|Create virtual environment|Terminal|`python3.11 -m venv .venv`|
-|4|Activate virtual environment|Terminal|`source .venv/bin/activate`|
-|5|Install all dependencies|Terminal|`pip install <library>`|
-|6|Pip freeze|Terminal|`pip freeze > requirements.txt`
-|7|Create essential repo file|Terminal|`touch README.md`|
-|8|Create essential repo file|Terminal|`touch .gitignore`|
-|9|Create essential docker file|Terminal|`touch Dockerfile`|
-|10|Create essential docker file|Terminal|`touch docker-compose.yml`|
-|11|Initialize as git repo|Terminal|`git init`|
-|12|Connect to remote repo|Terminal|`git remote add origin <https://github.com/{username}/{repo_name}.git_>`|
+| Step | Description | Environment | Command |
+| - | - | - | - |
+| 1 | Create new directory | Terminal | `mkdir <new_directory>` |
+| 2 | Step into new directory |Terminal | `cd <new_directory>` |
+| 3 | Create virtual environment | Terminal | `python3.11 -m venv .venv` |
+| 4 | Activate virtual environment |Terminal | `source .venv/bin/activate` |
+| 5 | Install all dependencies | Terminal | `pip install <library>` |
+| 6 |Pip freeze|Terminal|`pip freeze > requirements.txt` |
+| 7 | Create essential repo file|Terminal|`touch README.md`|
+| 8 |Create essential repo file|Terminal|`touch .gitignore`|
+| 9 |Create essential docker file|Terminal|`touch Dockerfile`|
+| 10 |Create essential docker file|Terminal|`touch docker-compose.yml`|
+| 11 |Initialize as git repo|Terminal|`git init`|
+| 12 |Connect to remote repo|Terminal|`git remote add origin <https://github.com/{username}/{repo_name}.git_>`|
 |13|Push to remote repo|Terminal|`git status`|
 ||||`git add .`|
 ||||`git commit -m "initial project setup" .`|
