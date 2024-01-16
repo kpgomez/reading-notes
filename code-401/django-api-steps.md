@@ -8,22 +8,22 @@
 | 3 | Create virtual environment | Terminal | `python3.11 -m venv .venv` |
 | 4 | Activate virtual environment |Terminal | `source .venv/bin/activate` |
 | 5 | Install all dependencies | Terminal | `pip install <library>` |
-| 6 |Pip freeze|Terminal|`pip freeze > requirements.txt` |
-| 7 | Create essential repo file|Terminal|`touch README.md`|
-| 8 |Create essential repo file|Terminal|`touch .gitignore`|
-| 9 |Create essential docker file|Terminal|`touch Dockerfile`|
-| 10 |Create essential docker file|Terminal|`touch docker-compose.yml`|
-| 11 |Initialize as git repo|Terminal|`git init`|
-| 12 |Connect to remote repo|Terminal|`git remote add origin <https://github.com/{username}/{repo_name}.git_>`|
-|13|Push to remote repo|Terminal|`git status`|
-||||`git add .`|
-||||`git commit -m "initial project setup" .`|
-|14|Create new Django project|Terminal|see Django command a|
-|15|Create new Django app(s)|Terminal|see Django command b|
-|16|Create a urls.py for each app|Terminal|`touch <app_name>/urls.py`|
-|17|Add each custom app to settings.py|IDE|n/a|
-|18|Add each third-party app to settings.py|IDE|n/a|
-|19|Update models.py|IDE|n/a|
+| 6 |Pip freeze|Terminal | `pip freeze > requirements.txt` |
+| 7 | Create essential repo file | Terminal | `touch README.md`|
+| 8 | Create essential repo file | Terminal | `touch .gitignore`|
+| 9 | Create essential docker file | Terminal | `touch Dockerfile`|
+| 10 |Create essential docker file | Terminal | `touch docker-compose.yml`|
+| 11 |Initialize as git repo | Terminal | `git init` |
+| 12 |Connect to remote repo | Terminal | `git remote add origin <https://github.com/{username}/{repo_name}.git_>` |
+| 13 | Push to remote repo | Terminal | `git status` |
+| ... | ... | ... | `git add .`|
+| ... | ... | ... | `git commit -m "initial project setup" .` |
+| 14 | Create new Django project | Terminal | see Django command a |
+| 15 | Create new Django app(s) | Terminal | see Django command b |
+| 16 | Create a urls.py for each app | Terminal | `touch <app_name>/urls.py` |
+| 17 | Add each custom app to settings.py | IDE | n/a |
+| 18 | Add each third-party app to settings.py | IDE | n/a |
+| 19 | Update models.py | IDE | n/a |
 
 
 ### Configuration for Settings.py
