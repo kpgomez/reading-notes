@@ -26,6 +26,7 @@
 | 19 | Update models.py | IDE | n/a |
 
 
+
 ### Configuration for Settings.py
 
 ```python
@@ -127,3 +128,11 @@ i.e.
 - [gitignore example](https://github.com/kpgomez/drf-auth/blob/main/.gitignore)
 - [Dockerfile example](https://github.com/kpgomez/drf-auth/blob/main/Dockerfile)
 - [docker-compose.yml](https://github.com/kpgomez/drf-auth/blob/main/docker-compose.yml)
+
+## Test Table
+
+| -/d | permissions | # of blocks | owner | privilege | filesize | last modification date/time | name |
+|---- | ----------- | ----------- | ----- | --------- | -------- | --------------------------- | ---- |
+| - | rw-r--r-- | 1 | dgomez | staff | 813 | Sep 13 08:23 | bash.md |
+| - | rw-r--r-- | 1 | dgomez | staff | 0 | Sep  6 15:11 | class-01.md |
+| d | rwxr-xr-x | 3 | dgomez | staff | 96 | Sep  6 15:13 | prework |
