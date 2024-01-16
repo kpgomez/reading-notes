@@ -2,17 +2,15 @@ Collection of all my notes while at CodeFellows and links for further study
 
 ## Code 102 - Intro to Software Development
 
-- [Class 01](/code-102/class-01-learning-markdown)
-- [Class 02 part 1 of 2](/code-102/class-02-terminal-cheatsheet)
-- [Class 02 part 2 of 2](/code-102/class-02-text-editor)
-- [Class 03](/code-102/class-03-git-intro.md)
-- [Class 04](/code-102/class-04.md)
-- [Class 05](/code-102/class-05.md)
-- [Class 06](/code-102/class-06.md)
-- [Class 07](/code-102/class-07.md)
-- [Class 08](/code-102/class-08.md)
-- [Class 09](/code-102/class-09.md)
-- [Class 10](/code-102/class-10.md)
+- [Class 01 - Learning Markdown](/code-102/class-01-learning-markdown)
+- [Class 02 part 1 of 2 - Terminal Cheatsheet](/code-102/class-02-terminal-cheatsheet)
+- [Class 02 part 2 of 2 - Text Editor](/code-102/class-02-text-editor)
+- [Class 03 - Git Intro](/code-102/class-03-git-intro.md)
+- [Class 04 - Wireframe, Design, HTML Basics, and Other Useful Tools](/code-102/class-04.md)
+- [Class 05 - CSS Intro](/code-102/class-05.md)
+- [Class 06 - JS Intro](/code-102/class-06.md)
+- [Class 07 - Control Flow, Functions](/code-102/class-07.md)
+- [Class 08 - Loops & Operators](/code-102/class-08.md)
 
 ## Code 201 - Foundations of Software Development
 
