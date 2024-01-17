@@ -94,6 +94,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [JavaScript vs Python](/code-401/syntax.md)
 - [Python Documentation](/code-401/pythondocs.md)
 - [Django API steps](/code-401/django-api-steps.md)
+- [Systems Analysis & Design Methods 6e (Whitten, Bentley, Dittman)](/code-401/sad.md)
 
 ### Resources
 
