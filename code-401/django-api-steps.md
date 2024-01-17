@@ -2,7 +2,7 @@
 
 ## Initial Project Setup
 | Step | Description | Environment | Command |
-| - | - | - | - |
+| ---- | ----------- | ----------- | ------- |
 | 1 | Create new directory | Terminal | `mkdir <new_directory>` |
 | 2 | Step into new directory |Terminal | `cd <new_directory>` |
 | 3 | Create virtual environment | Terminal | `python3.11 -m venv .venv` |
