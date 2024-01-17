@@ -3,16 +3,38 @@
 ## Sources
 - [Graphs](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/graphs.html)
 
-Some ideas for how you might want to teach:
 
-Use an analogy
-Explain a detail in depth
-Use WHY, WHAT, HOW structure
-Tutorial / walk through an example
-Write a quiz
-Create a vocabulary/definition list
-Write a cheat sheet
-Create a diagram / visualization / cartoon of a topic
-Anthropomorphize the concepts, and write a conversation between them
-Build a map of the information
-Construct a fill-in-the-blank worksheet for the topic
+## Find its synonym
+
+**Vertex              Edge              Neighbor              Degree**
+
+A. Connection              
+
+B. Number of Neighbors
+
+C. Node
+
+D. Adjacent Node
+
+## Fill in the blanks
+
+A vertex can have ____ or more adjacent vertices.
+
+
+A graph with 7 nodes has a minimum of ____ edges.
+
+
+## Multiple Choice
+
+How many edges are in a complete graph with 6 nodes?
+
+A. 36
+
+B. 21
+
+C. 15
+
+D. 6
+
+
+
