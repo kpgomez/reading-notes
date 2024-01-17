@@ -84,8 +84,8 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 32 - Permissions & Postgresql](/code-401/class-32.md)
 - [Class 33 - Authentication & Production Server](/code-401/class-33.md)
 - [Class 34 - API Deployment](/code-401/class-34.md)
-- [Class 35 - Graphs](/code/class-35.md)
-- [Class 36 - DSA Review](/code/class-36.md)
+- [Class 35 - Graphs](/code-401/class-35.md)
+- [Class 36 - DSA Review](/code-401/class-36.md)
 
 
 
