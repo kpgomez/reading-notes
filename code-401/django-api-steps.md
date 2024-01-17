@@ -19,6 +19,7 @@
 | 13 | Push to remote repo | Terminal | `git status` |
 | ... | ... | ... | `git add .`|
 | ... | ... | ... | `git commit -m "initial project setup" .` |
+| ... | ... | ... | `git push origin main` |
 | 14 | Create new Django project | Terminal | see Django command a |
 | 15 | Create new Django app(s) | Terminal | see Django command b |
 | 16 | Create a urls.py for each app | Terminal | `touch <app_name>/urls.py` |
@@ -56,7 +57,6 @@ INSTALLED_APPS = [
 | - | - | - | - |
 | a | `django-admin startproject <project_name_project> .` | create new Django project | creates a django project package which includes asgi.py, settings.py,  urls.py, wsgi.py |
 | b | `python manage.py startapp <app_name>` | create new Django app|each django app includes a migrations package, admin.py, apps.py, models.py, tests.py, views.py | ... |
-| ... | ... |...| ... |
 
 
 ## Libraries
