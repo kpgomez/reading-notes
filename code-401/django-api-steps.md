@@ -51,6 +51,7 @@ INSTALLED_APPS = [
 
 
 ## Django Commands
+
 | Reference | Command | Description | Notes |
 | - | - | - | - |
 | a | `django-admin startproject <project_name_project> .` | create new Django project | creates a django project package which includes asgi.py, settings.py,  urls.py, wsgi.py |
@@ -59,6 +60,7 @@ INSTALLED_APPS = [
 
 
 ## Libraries
+
 | Name | Description | Command | Import Statement | Documentation |
 | - | - | - | - | - |
 | Django | Batteries included web development framework | `pip install django` | ... |...|
