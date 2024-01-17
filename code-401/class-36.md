@@ -12,4 +12,4 @@
 2. From the “6 tips to ace a whiteboard programming interview” article, can you identify and explain at least two strategies that can help improve your performance during a whiteboard programming interview?
 > I think I maxxed the number of medium articles I can read for this month. From the advice I can preview, I will take a minute to digest the problem before I start rambling and write down the steps of the solution
 3. What does Gayle McDowell say about interview preparation in the Engineering Interview Process Deconstructed video?
->
+>  Preparation is useful, spend a couple weeks of solid preparation, but don't spend months. Know dsa really well. Get super comfortable with the basics. Push on harder problems. Goal is to get better at solving new problems. Presentation skills supercede coding skills. 
