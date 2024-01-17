@@ -22,14 +22,21 @@
 | ... | ... | ... | `git push origin main` |
 | 14 | Create new Django project | Terminal | see Django command a |
 | 15 | Create new Django app(s) | Terminal | see Django command b |
+
+
 | 16 | Create a urls.py for each app | Terminal | `touch <app_name>/urls.py` |
 | 17 | Add each custom app to settings.py | IDE | n/a |
 | 18 | Add each third-party app to settings.py | IDE | n/a |
-| 19 | Update models.py | IDE | n/a |
+| 19 | Create new custom user models as per best practices | IDE | n/a |
+| 20 | Create new user forms | IDE | n/a |
+| 21 | Update admin.py | | |
 
 
+## Next steps
 
-### Configuration for Settings.py
+### Create urls.py in the directory of each custom app
+
+### Add custom app(s) and/or any third-party apps to INSTALLED_APPS in Settings.py
 
 ```python
 
@@ -46,10 +53,63 @@ INSTALLED_APPS = [
     # custom apps
 ]
 ```
+## Custom User Models
+** consider drawing UML diagram prior to creating the models **
+### 1. Create Custom User Models
+[see previous notes](/code-401/class-29.md)
 
-### Custom User Models
+```python
+# custom_app/models.py
+from django.contrib.auth.models import AbstractUser
+from django.db import models
 
+class CustomUser(AbstractUser):
+    pass
+    # add additional fields in here
 
+    def __str__(self):
+        return self.username
+```
+
+### 2. Create forms.py and update forms
+
+```python
+# custom_app/forms.py
+from django.contrib.auth.forms import UserCreationForm, UserChangeForm
+
+from .models import CustomUser
+
+class CustomUserCreationForm(UserCreationForm):
+
+    class Meta:
+        model = CustomUser
+        fields = ("username", "email")
+
+class CustomUserChangeForm(UserChangeForm):
+
+    class Meta:
+        model = CustomUser
+        fields = ("username", "email")
+```
+
+### 3. Update admin.py
+
+```python
+# accounts/admin.py
+from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin
+
+from .forms import CustomUserCreationForm, CustomUserChangeForm
+from .models import CustomUser
+
+class CustomUserAdmin(UserAdmin):
+    add_form = CustomUserCreationForm
+    form = CustomUserChangeForm
+    model = CustomUser
+    list_display = ["email", "username",]
+
+admin.site.register(CustomUser, CustomUserAdmin)
+```
 
 ## Django Commands
 
@@ -64,11 +124,12 @@ INSTALLED_APPS = [
 | Name | Description | Command | Import Statement | Documentation |
 | - | - | - | - | - |
 | Django | Batteries included web development framework | `pip install django` | ... |...|
-| Django-Cors-Headers | ... | `pip install django-cors-headers` | ... | [link to docs](https://pypi.org/project/django-cors-headers/) |
+| Django-Cors-Headers | ... | `pip install django-cors-headers` | ... | [documentation](https://pypi.org/project/django-cors-headers/) |
 | Django-Environ | ... | `pip install django-environ` | ... | ... |
 | Django REST Framework | ... | `pip install djangorestframework` | ... | ... |
 | Django REST Framework Simple JWT | ... | `pip install djangorestframework-simplejwt` | ... | ... |
 | Gunicorn | Production grade server application | `pip install gunicorn` | ... | ... |
+| MultiSelectField| ... |`pip install django-multiselectfield` | `from multiselectfield` | [documentation](https://pypi.org/project/django-multiselectfield/) |
 | Psycopgbinary-2 | Postgres Adapter | `pip install psycopg-binary2` | ... | ... |
 | Tailwind CSS | Utility First Custom CSS Library | `npm install -D tailwindcss` | ... | ... |
 | Whitenoise | ... | `pip install whitenoise` | ... | ... |
@@ -131,11 +192,3 @@ i.e.
 - [gitignore example](https://github.com/kpgomez/drf-auth/blob/main/.gitignore)
 - [Dockerfile example](https://github.com/kpgomez/drf-auth/blob/main/Dockerfile)
 - [docker-compose.yml](https://github.com/kpgomez/drf-auth/blob/main/docker-compose.yml)
-
-## Test Table
-
-| -/d | permissions | # of blocks | owner | privilege | filesize | last modification date/time | name |
-|---- | ----------- | ----------- | ----- | --------- | -------- | --------------------------- | ---- |
-| - | rw-r--r-- | 1 | dgomez | staff | 813 | Sep 13 08:23 | bash.md |
-| - | rw-r--r-- | 1 | dgomez | staff | 0 | Sep  6 15:11 | class-01.md |
-| d | rwxr-xr-x | 3 | dgomez | staff | 96 | Sep  6 15:13 | prework |
