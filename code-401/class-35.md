@@ -21,7 +21,7 @@ D. Adjacent Node
 A vertex can have ____ or more adjacent vertices.
 
 
-A graph with 7 nodes has a minimum of ____ edges.
+A connected graph with 7 nodes has a minimum of ____ edges.
 
 
 ## Multiple Choice
@@ -38,3 +38,21 @@ D. 6
 
 
 
+
+
+
+
+## Answers
+Vertex ~ Node
+
+Edge ~ Connection
+
+Neighbor ~ Adjacent Vertex
+
+Degree ~ Number of Neighbor(s)
+
+zero
+
+7 vertices equals a min of 7 edges
+
+15 = 5 + 4 + 3 + 2 + 1
