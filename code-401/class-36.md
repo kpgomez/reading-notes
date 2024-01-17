@@ -13,3 +13,25 @@
 > I think I maxxed the number of medium articles I can read for this month. From the advice I can preview, I will take a minute to digest the problem before I start rambling and write down the steps of the solution
 3. What does Gayle McDowell say about interview preparation in the Engineering Interview Process Deconstructed video?
 >  Preparation is useful, spend a couple weeks of solid preparation, but don't spend months. Know dsa really well. Get super comfortable with the basics. Push on harder problems. Goal is to get better at solving new problems. Presentation skills supercede coding skills. 
+
+4. [The Top 10 Most Important Concepts for Coding Interviews (algorithms and data structure)](https://www.youtube.com/watch?v=Ge0Udbws1kc)
+
+>  - Logarithms, understand how it works and why it is faster
+> - Graph Traversal, BFS DFS acyclic/cyclic
+> - Binary Search
+> - Sliding window techniques
+> - Recursion
+> - Inverting a Binary Tree, Reversing a Linked Lists
+> - Suffix tree
+> - Heaps (Binary Heaps)
+> - Dynamic Programming solves the hardest, solve a smaller version of the programming
+> - Sorting algorithms (quick sort & merge sort)
+
+```python
+def invert_binary_tree(tree):
+	if tree is None:
+		return
+    tree.left, tree.right = tree.right, tree.left
+	invert_binary_tree(tree.left)
+ 	invert_binary_tree(tree.right)
+```
