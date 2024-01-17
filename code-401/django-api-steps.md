@@ -1,6 +1,7 @@
 # Django API steps
 
 ## Initial Project Setup
+
 | Step | Description | Environment | Command |
 | ---- | ----------- | ----------- | ------- |
 | 1 | Create new directory | Terminal | `mkdir <new_directory>` |
