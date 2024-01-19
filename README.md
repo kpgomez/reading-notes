@@ -86,6 +86,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 34 - API Deployment](/code-401/class-34.md)
 - [Class 35 - Graphs](/code-401/class-35.md)
 - [Class 36 - DSA Review](/code-401/class-36.md)
+- [Class 37 - ES6, React, Tailwind CSS, Next.js](/code-401/class-37.md)
 
 
 
