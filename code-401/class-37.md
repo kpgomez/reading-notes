@@ -23,8 +23,9 @@ Next.js
 
 Reading Questions
 1. In the context of ES6 Syntax and Feature Overview, what are three key features introduced in ES6 that improve upon the previous version of JavaScript, and briefly explain their benefits?
->
+> Introduction of `let` keyword wich allows for block-scoped variables which cannot be hoisted or redeclared. Expressions can be embedded in template literal strings. This is more intuitive and also makes the code easier to read. Arrow function expression syntax which functions as an anonymous function that cannot be called. It has a shorter syntax and also easier to read.
 2. After reading “Tailwind in 15 minutes,” can you describe the purpose of utility classes in Tailwind CSS and provide an example of how to use them to style an HTML element?
->
+> The utility classes can be combined to create a custom style element. Example: `class = p-6 max-w-wm mx-auto bg-white rounded-xl shadow-lg flex items-center w-[300px]`
+
 3. Based on “Why to use Next.js,” explain the main advantages of using Next.js for web development, and provide a brief comparison between traditional client-side rendering and Next.js’s server-side rendering approach.
->
+> The advantages include choice of either client or server-side rendering on per page basis, easier to maintain performance as the number of pages grow, preservation of react state, and debugging modal. Because React can only be rendered on the client side, the developer has to use a different framework to build the server application. With Next.js' hybrid rendering, you can do both build both the client and server in a single framework.
