@@ -87,6 +87,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 35 - Graphs](/code-401/class-35.md)
 - [Class 36 - DSA Review](/code-401/class-36.md)
 - [Class 37 - ES6, React, Tailwind CSS, Next.js](/code-401/class-37.md)
+- [Class 38 - React Deep Dive & HeroIcons](/code-401/class-38.md)
 
 
 
@@ -96,6 +97,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Python Documentation](/code-401/pythondocs.md)
 - [Django API steps](/code-401/django-api-steps.md)
 - [Systems Analysis & Design Methods 6e (Whitten, Bentley, Dittman)](/code-401/sad.md)
+- [Tailwind](/code-401/tailwind.md)
 
 ### Resources
 
