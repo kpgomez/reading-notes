@@ -88,6 +88,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 36 - DSA Review](/code-401/class-36.md)
 - [Class 37 - ES6, React, Tailwind CSS, Next.js](/code-401/class-37.md)
 - [Class 38 - React Deep Dive & HeroIcons](/code-401/class-38.md)
+- [Class 39 - React 3](/code-401/class-39.md)
 
 
 
