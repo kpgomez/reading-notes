@@ -89,6 +89,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 37 - ES6, React, Tailwind CSS, Next.js](/code-401/class-37.md)
 - [Class 38 - React Deep Dive & HeroIcons](/code-401/class-38.md)
 - [Class 39 - React 3](/code-401/class-39.md)
+- [Class 40 - Ethics](/code-401/class-40.md)
 
 
 

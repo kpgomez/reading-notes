@@ -1,5 +1,143 @@
 # Class 37: React 1
 
+## Quickstart Notes
+
+A component makes up the UI. Each component has its own logic and appearance. Each component contains JavaScript function that return markup (HTML).
+
+Component types
+- class
+- functional
+
+Rules
+- React components start with a capital letter
+- html tags are lower case
+
+JSX (JavaScript Extension Syntax) is stricter than HTML. There are no self closing tags. All tags must end with />
+
+className refers to CSS class. use quotes to pass in attributes. use curly braces to pass in javascript variables. can also use conditionals to specify attributes
+
+{{}} indicate a javascript object passed as a variable
+
+```javascript
+function MyButton() {
+    return (
+        <> {/*empty frag*/}
+        </>
+    )
+}
+```
+
+```javascript
+export default function MyApp() {
+    return (
+        <div>
+            <h1>Welcome to my app</h1>
+            <MyButton /> {/*React Component*/}
+        </div>
+    )
+}
+```
+
+```javascript
+return (
+    <>
+        <img
+            className="avatar"
+            src={user.imageUrl}
+            style={{
+                width: user.imageSize,
+                height: user.imageSize
+            }}
+        >
+    </img>
+)
+```
+
+export default (specifies the main component in the file ) vs export
+
+<u>**conditional rendering**</u>
+
+```javascript
+let content;
+if (isLoggedIn) {
+    content = <AdminPanel />;
+} else {
+    content = <LoginForm />
+}
+return (
+    <div>
+        {content}
+    </div>
+);
+```
+
+<u>**ternary example**</u>
+
+```javascript
+<div>
+    {isLoggedIn ? (
+        <AdminPanel />
+    ) : (
+        <LoginForm />
+    )}
+</div>
+```
+
+<u>**logical &&**</u>
+
+```javascript
+<div>
+    {isLoggedIn && <AdminPanel />}
+</div>
+```
+
+rendering lists
+
+```javascript
+
+const products = [
+    {title: 'Cabbage', id: 1},
+    {title: 'Garlic', id: 2}
+];
+
+const listItems = products.map(product => 
+    <li key={product.id}> {/*each item in a list should have a unique key*/}
+        {product.title}
+    </li>
+);
+
+return (
+    <ul>{listItems}</ul>
+)
+```
+
+```javascript
+import { useState } from 'react';
+
+function MyButton() {
+    const [something, setSomthing] = useState(initialValue)
+}
+
+export default function MyApp() {
+    return (
+        <div>
+            <MyButton /> {/*has its own state*/}
+            <MyButton />
+        </div>
+    )
+```
+
+```javascript
+function MyButton({ count, onClick }) { {/*to pass props*/}
+    return (
+        <button onClick={onClick}> {/*this action will lift state up*/}
+            Clicked {count} times
+        </button>
+    );
+}
+```
+
+Any function starting with "use" is a Hook. 
 ## Sources
 
 ES6 Overview

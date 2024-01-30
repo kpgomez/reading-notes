@@ -1,5 +1,13 @@
 # Class 38: React 2
 
+## Thinking in React Notes
+
+1. Break the UI into a component hierarchy
+2. Build a static application
+3. Identify state, minimal set of changing data your app needs
+4. Identify where state should live
+5. Add inverse data flow
+
 ## Sources
 - [React - Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
 - [React - List & Keys](https://reactjs.org/docs/lists-and-keys.html)
