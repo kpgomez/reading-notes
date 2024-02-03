@@ -90,8 +90,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 38 - React Deep Dive & HeroIcons](/code-401/class-38.md)
 - [Class 39 - React 3](/code-401/class-39.md)
 - [Class 40 - Ethics](/code-401/class-40.md)
-
-
+- [Class 41 - React 4](/code-401/class-41.md)
 
 ### My Notes
 - [Jay Wengrow DSA Book](/code-401/dsa.md)
