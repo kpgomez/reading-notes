@@ -130,7 +130,7 @@ admin.site.register(CustomUser, CustomUserAdmin)
 | Django REST Framework Simple JWT | ... | `pip install djangorestframework-simplejwt` | ... | ... |
 | Gunicorn | Production grade server application | `pip install gunicorn` | ... | ... |
 | MultiSelectField| ... |`pip install django-multiselectfield` | `from multiselectfield` | [documentation](https://pypi.org/project/django-multiselectfield/) |
-| Psycopgbinary-2 | Postgres Adapter | `pip install psycopg-binary2` | ... | ... |
+| Psycopgbinary-2 | Postgres Adapter | `pip install psycopg2-binary` | ... | ... |
 | Tailwind CSS | Utility First Custom CSS Library | `npm install -D tailwindcss` | ... | ... |
 | Whitenoise | ... | `pip install whitenoise` | ... | ... |
 
