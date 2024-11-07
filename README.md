@@ -100,6 +100,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Django API steps](/code-401/django-api-steps.md)
 - [Systems Analysis & Design Methods 6e (Whitten, Bentley, Dittman)](/code-401/sad.md)
 - [Tailwind](/code-401/tailwind.md)
+- [Letter of Gratitude](/letter_of_gratitude.md)
 
 ### Resources
 
