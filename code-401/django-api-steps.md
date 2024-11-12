@@ -138,6 +138,7 @@ admin.site.register(CustomUser, CustomUserAdmin)
 - [Documentation](https://tailwindcss.com/docs/installation)
 
 ## README templates
+- [How to Write a Good README file (FreeCodeCamp)](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
 
 ### Code Challenges
 ```markdown
@@ -185,6 +186,15 @@ i.e.
 ### Group Projects
 
 ### Personal Projects
+#### Starter Template
+```markdown
+
+# Inspiration
+# Description
+# Lessons Learned
+# Sources/Attribution
+
+```
 
 ### Github Profile
 
