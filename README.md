@@ -2,33 +2,33 @@ Collection of all my notes while at CodeFellows and links for further study
 
 ## Code 102 - Intro to Software Development
 
-- [Class 01 - Learning Markdown](/code-102/class-01-learning-markdown)
-- [Class 02 part 1 of 2 - Terminal Cheatsheet](/code-102/class-02-terminal-cheatsheet)
-- [Class 02 part 2 of 2 - Text Editor](/code-102/class-02-text-editor)
+- [Class 01 - Learning Markdown](/code-102/class-01-learning-markdown.md)
+- [Class 02 part 1 of 2 - Terminal Cheatsheet](/code-102/class-02-terminal-cheatsheet.md)
+- [Class 02 part 2 of 2 - Text Editor](/code-102/class-02-text-editor.md)
 - [Class 03 - Git Intro](/code-102/class-03-git-intro.md)
-- [Class 04 - Wireframe, Design, HTML Basics, and Other Useful Tools](/code-102/class-04.md)
-- [Class 05 - CSS Intro](/code-102/class-05.md)
-- [Class 06 - JavaScript Intro](/code-102/class-06.md)
-- [Class 07 - Control Flow, Functions](/code-102/class-07.md)
-- [Class 08 - Loops & Operators](/code-102/class-08.md)
+- [Class 04 - Wireframe, Design, HTML Basics, and Other Useful Tools](/code-102/class-04-wireframe-design.md)
+- [Class 05 - CSS Intro](/code-102/class-05-css-intro.md)
+- [Class 06 - JavaScript Intro](/code-102/class-06-js-intro.md)
+- [Class 07 - Control Flow, Functions](/code-102/class-07-control-flow-and-function.md)
+- [Class 08 - Loops & Operators](/code-102/class-08-loops-and-iteration.md)
 
 ## Code 201 - Foundations of Software Development
 
-- [Class 01 - How the Web Works, JavaScript, & HTML](/code-201/class-01)
-- [Class 02 - More HTML, JavaScript, CSS, Events](/code-201/class-02)
-- [Class 03 - CSS Box Model, HTML Lists](/code-201/class-03)
-- [Class 04 - HTML Links, CSS Layout (Absolute/Relative), Positioning , JavaScript Functions](/code-201/class-04)
-- [Class 05 - HTML Media, CSS](/code-201/class-05)
-- [Class 06 - JavaScript Objects, DOM](/code-201/class-06)
-- [Class 07 - Domain Modeling, HTML Tables, JavaScript Constructors, Prototypes](/code-201/class-07)
-- [Class 08 - CSS Flexbox](/code-201/class-08)
-- [Class 09 - HTML Forms and Event Handlers](/code-201/class-09)
-- [Class 10 - Debugging](/code-201/class-10)
-- [Class 11 - CSS Grids](/code-201/class-11)
-- [Class 12 - JavaScript Canvas, Chart.js](/code-201/class-12)
-- [Class 13 - Local Storage](/code-201/class-13)
-- [Class 14 - CSS Transitions & Animations](/code-201/class-14)
-- [Class 14, 2 - Psychological Safety](/code-201/class-14-2)
+- [Class 01 - How the Web Works, JavaScript, & HTML](/code-201/class-01.md)
+- [Class 02 - More HTML, JavaScript, CSS, Events](/code-201/class-02.md)
+- [Class 03 - CSS Box Model, HTML Lists](/code-201/class-03.md)
+- [Class 04 - HTML Links, CSS Layout (Absolute/Relative), Positioning , JavaScript Functions](/code-201/class-04.md)
+- [Class 05 - HTML Media, CSS](/code-201/class-05.md)
+- [Class 06 - JavaScript Objects, DOM](/code-201/class-06.md)
+- [Class 07 - Domain Modeling, HTML Tables, JavaScript Constructors, Prototypes](/code-201/class-07.md)
+- [Class 08 - CSS Flexbox](/code-201/class-08.md)
+- [Class 09 - HTML Forms and Event Handlers](/code-201/class-09.md)
+- [Class 10 - Debugging](/code-201/class-10.md)
+- [Class 11 - CSS Grids](/code-201/class-11.md)
+- [Class 12 - JavaScript Canvas, Chart.js](/code-201/class-12.md)
+- [Class 13 - Local Storage](/code-201/class-13.md)
+- [Class 14 - CSS Transitions & Animations](/code-201/class-14.md)
+- [Class 14, 2 - Psychological Safety](/code-201/class-14-2.md)
 
 ## Code 301 - Intermediate Software Development
 
@@ -103,5 +103,3 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Letter of Gratitude](/letter_of_gratitude.md)
 
 ### Resources
-
-
