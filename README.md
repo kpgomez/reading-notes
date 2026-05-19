@@ -9,7 +9,7 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 04 - Wireframe, Design, HTML Basics, and Other Useful Tools](/code-102/class-04-wireframe-design.md)
 - [Class 05 - CSS Intro](/code-102/class-05-css-intro.md)
 - [Class 06 - JavaScript Intro](/code-102/class-06-js-intro.md)
-- [Class 07 - Control Flow, Functions](/code-102/class-07-control-flow-and-function.md)
+- [Class 07 - Control Flow, Functions](/code-102/class-07-control-flow-and-functions.md)
 - [Class 08 - Loops & Operators](/code-102/class-08-loops-and-iteration.md)
 
 ## Code 201 - Foundations of Software Development
