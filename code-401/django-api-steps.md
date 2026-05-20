@@ -10,26 +10,24 @@
 | 4 | Activate virtual environment |Terminal | `source .venv/bin/activate` |
 | 5 | Install all dependencies | Terminal | `pip install <library>` |
 | 6 |Pip freeze|Terminal | `pip freeze > requirements.txt` |
-| 7 | Create essential repo file | Terminal | `touch README.md`|
-| 8 | Create essential repo file | Terminal | `touch .gitignore`|
-| 9 | Create essential docker file | Terminal | `touch Dockerfile`|
-| 10 |Create essential docker file | Terminal | `touch docker-compose.yml`|
-| 11 |Initialize as git repo | Terminal | `git init` |
-| 12 |Connect to remote repo | Terminal | `git remote add origin <https://github.com/{username}/{repo_name}.git_>` |
-| 13 | Push to remote repo | Terminal | `git status` |
+| 7 | Create essential repo files | Terminal | `touch README.md`|
+| ... | ... | Terminal | `touch .gitignore`|
+| ... | ... | Terminal | `touch Dockerfile`|
+| ... |... | Terminal | `touch docker-compose.yml`|
+| 8 |Initialize as git repo | Terminal | `git init` |
+| 9 |Connect to remote repo | Terminal | `git remote add origin <https://github.com/{username}/{repo_name}.git>` |
+| 10 | Push to remote repo | Terminal | `git status` |
 | ... | ... | ... | `git add .`|
-| ... | ... | ... | `git commit -m "initial project setup" .` |
+| ... | ... | ... | `git commit -m "initial project setup"` |
 | ... | ... | ... | `git push origin main` |
-| 14 | Create new Django project | Terminal | see Django command a |
-| 15 | Create new Django app(s) | Terminal | see Django command b |
-
-
-| 16 | Create a urls.py for each app | Terminal | `touch <app_name>/urls.py` |
-| 17 | Add each custom app to settings.py | IDE | n/a |
-| 18 | Add each third-party app to settings.py | IDE | n/a |
-| 19 | Create new custom user models as per best practices | IDE | n/a |
-| 20 | Create new user forms | IDE | n/a |
-| 21 | Update admin.py | | |
+| 11 | Create new Django project | Terminal | see Django command a |
+| 12 | Create new Django app(s) | Terminal | see Django command b |
+| 13 | Create a urls.py for each app | Terminal | `touch <app_name>/urls.py` |
+| 14 | Add each custom app to settings.py | IDE | n/a |
+| 15 | Add each third-party app to settings.py | IDE | n/a |
+| 16 | Create new custom user models as per best practices | IDE | n/a |
+| 17 | Create new user forms | IDE | n/a |
+| 18 | Update admin.py | IDE | n/a |
 
 
 ## Next steps
