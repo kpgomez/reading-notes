@@ -72,15 +72,14 @@ Collection of all my notes while at CodeFellows and links for further study
 - [Class 15 - Trees](/code-401/class-15.md)
 - [Class 16 - Serverless functions](/code-401/class-16.md)
 - [Class 17 - Web Scraping](/code-401/class-17.md)
-- [Class 18 - Crypto?]()
-- [Class 19 - Automation](/code-401/class-18.md)
-- Class 20 - 25 - Midterm Project Weeks
+- [Class 18 - Automation](/code-401/class-18.md)
+- Class 19 - 25 - Midterm Project Weeks
 - [Class 26 - Django & Tailwind CSS](/code-401/class-26.md)
 - [Class 27 - Django Models](/code-401/class-27.md)
 - [Class 28 - Django CRUD and Forms](/code-401/class-28.md)
 - [Class 29 - Django Custom User](/code-401/class-29.md)
 - Class 30 - Hashtables
-- [Class 31 - Django REST Framework & Docker ](/code-401/class-31.md)
+- [Class 31 - Django REST Framework & Docker](/code-401/class-31.md)
 - [Class 32 - Permissions & Postgresql](/code-401/class-32.md)
 - [Class 33 - Authentication & Production Server](/code-401/class-33.md)
 - [Class 34 - API Deployment](/code-401/class-34.md)
